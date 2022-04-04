@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Times new roman, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<center>
+  <body><h2>What can guests use at your place?</h2>
+    <div class="container">
+      <form action="breakfast.html" method="post" enctype="multipart/form-data">
+        <h3><label for="fname">General</label><br><br></h3>
+    <h4><input type="checkbox" id="general1" name="g1" value="AC">
+    <label for="general1"> Air Conditioning</label><br>
+    <input type="checkbox" id="general2" name="g2" value="Heating">
+    <label for="general2"> Heating</label><br>
+    <input type="checkbox" id="general3" name="g3" value="Free">
+    <label for="general3">Free wifi</label><br>
+    <input type="checkbox" id="general4" name="g4" value="EV">
+    <label for="general4">Electric vehicle charging point</label><br></h4>
+    <h4><p>--------------------------------------------------------------------------------------------------------------</p></h4>
+    <h3><label for="fname">Cooking And Cleaning</label><br><br></h3>
+    <h4><input type="checkbox" id="general6" name="g6" value="kit">
+    <label for="general6"> Kitchen</label><br>
+    <input type="checkbox" id="general7" name="g7" value="wm">
+    <label for="general7">Washing machine</label><br>
+    <h4><p>--------------------------------------------------------------------------------------------------------------</p></h4>
+    <h3><label for="fname">Entertainment</label><br><br></h3>
+    <h4><input type="checkbox" id="general8" name="g8" value="tv">
+    <label for="general8"> Flat-Screen Televsion</label><br>
+    <input type="checkbox" id="general9" name="g9" value="wm4">
+    <label for="general9">Swimming pool</label><br>
+    <input type="checkbox" id="general10" name="g10" value="wm0">
+    <label for="general10">Hot Tub</label><br><br><br>
+      <input type="submit" value="Submit">
+      <h1><a href="map.html" class="previous round">&#8249;</a><h1>
+    
+      </form>
+    </div>
+</center>
+</body>
+</html>

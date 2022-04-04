@@ -1,0 +1,12 @@
+/*    /index.html    200
+/*    /breakfast.html    200
+/*    /charges.html    200
+/*    /gst.html    200
+/*    /houserules.html    200
+/*    /languages.html    200
+/*    /map.html    200
+/*    /parking.html    200
+/*    /property_listing.html    200
+/*    /thankyou.html    200
+/*    /uploadpix.html    200
+/*    /whatguestscanuse.html    200
